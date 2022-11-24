@@ -9,6 +9,23 @@ Este es un repositorio donde he  programado desde cero  parte de la web de God o
 [![Github Repository](https://img.shields.io/static/v1?label=&message=Github%20Repository&color=000000&style=for-the-badge&logo=github&logoColor=white)](https://eduardofierropro.github.io/God-of-war-ragnarok/)
 [![Youtube](https://img.shields.io/static/v1?label=&message=ver%20en%20youtube&color=FF0000&logo=youtube&logoColor=white&style=for-the-badge)](https://www.youtube.com/watch?v=YV8PON9MVl8)
 
+## Tecnologías usadas
+
+![HTML](https://img.shields.io/static/v1?label=&message=Html&color=orange&logo=html5&logoColor=white&style=for-the-badge)
+![SASS](https://img.shields.io/static/v1?label=&message=SASS&color=CC6699&logo=sass&logoColor=white&style=for-the-badge)
+![TypeScript](https://img.shields.io/static/v1?label=&message=TypeScript&color=3178C6&logo=typescript&logoColor=white&style=for-the-badge)
+![SUIT Methodology](https://img.shields.io/static/v1?label=&message=suitcss&color=lightblue&logo=suit&logoColor=white&style=for-the-badge)
+
+> Aclaraciones:
+>
+> No ha sido probado para tener soporte crossbrowsing
+>
+> El diseño de la web original puede variar
+>
+> Ha sido programado con fines de entretenimiento
+>
+> No lo uses en tu propio portfolio sino como referencia o práctica
+
 ## 🔴 Vídeos y repositorios de otras programaciones
 
 | Enlace | Youtube | Github | Github Pages |
