@@ -1,5 +1,5 @@
-# Forbes para ayudar a Jordi Wild, Nate Gentile y Oscar Dorta
-Este es un repositorio donde he rediseñado y programado desde cero la web de Forbes para ayudar a Jordi Wild, Nate Gentile y Oscar Dorta a que se encuentren en el top de la lista de Forbes.
+# GOD of WAR con HTML, SUITCSS, SCSS y TYPESCRIPT
+Este es un repositorio donde he  programado desde cero  parte de la web de God of War Ragnarok con HTML, SUITCSS, SCSS y Typescript en directo desde Twitch.
 
 
  <!-- Puedes verla en directo aquí 👉 [https://forbes-eduardofierropro.netlify.app/](https://forbes-eduardofierropro.netlify.app/) -->
