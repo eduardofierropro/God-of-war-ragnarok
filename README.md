@@ -1,8 +1,9 @@
 # GOD of WAR con HTML, SUITCSS, SCSS y TYPESCRIPT
 Este es un repositorio donde he  programado desde cero  parte de la web de God of War Ragnarok con HTML, SUITCSS, SCSS y Typescript en directo desde Twitch.
 
+![Imagen del proyecto](https://github.com/eduardofierropro/God-of-war-ragnarok/blob/main/home1.png)
 
- <!-- Puedes verla en directo aquí 👉 [https://forbes-eduardofierropro.netlify.app/](https://forbes-eduardofierropro.netlify.app/) -->
+Puedes verla en directo aquí 👉 [https://forbes-eduardofierropro.netlify.app/](https://forbes-eduardofierropro.netlify.app/) 
 
 Si te ha gustado o te ha servido coméntalo en un directo o sígueme por Twitch y Youtube 😊
 
