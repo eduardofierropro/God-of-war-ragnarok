@@ -1,0 +1,39 @@
+:root {
+  --c-negro : #393939;
+  --c-blanco: #fff;
+  --c-gris: #999;
+  --c-marron: #1d1d1d;
+  --c-azul: #0070cc;
+  --c-rojo: #d53b00;
+  
+  --s-primary: rgba(0,0,0,.2);
+
+
+  --tipo-principal: Helvetica, Arial, sans-serif;
+  --tipo-secundaria: Verdana;
+}
+
+
+
+/* 
+    @media (prefers-color-scheme: dark) {
+  :root{
+    --c-negro : #fff;
+    --c-blanco: #393939;
+    --c-gris: #1d1d1d;
+    --c-marron: #999;
+    --s-primary: rgba(0,0,0,.2);
+  }
+}
+ 
+ 
+  @media (prefers-contrast: high){
+      :root{}
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+  } */

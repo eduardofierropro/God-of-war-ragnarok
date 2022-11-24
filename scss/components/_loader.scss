@@ -1,0 +1,17 @@
+.Loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 6;
+    background-color: white;
+    @include flex( row, nowrap , center , center );
+    pointer-events: none;
+    animation: slideUp 1s ease 3s 1 both  ;
+    &-logo{
+        width: 6em;
+        height: 6em;
+        /* animation: pumPum 10s ease infinite both ; */
+    }
+}

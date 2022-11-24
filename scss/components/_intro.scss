@@ -1,0 +1,160 @@
+.Intro{
+    position: relative;
+    overflow: hidden;
+    padding: 10vh 0;
+
+    animation:  slideHero 1s ease 4s 1 both ;
+    @media screen and (min-width:1200px) {
+        @include flex( row, nowrap , flex-end , center );
+    }
+
+    &::after{
+        content: '';
+        display: block;
+        background: linear-gradient(270deg, rgba(29,29,29,0) 0%, rgba(29,29,29,1) 100%);
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+    }
+    
+    .Wrapper{
+        width: 45%;
+        height: 100%;
+        
+        position: absolute;
+        top:0%;
+        left: 5%;
+        z-index: 4;
+
+        color:white;
+        text-shadow:  0 0 1em black;
+        @include flex( column , nowrap , center , flex-start );
+        
+        @include media(1100px){
+            position: relative;  
+            width: 60%; 
+            margin: auto;
+            left: initial;
+            top: initial;
+        }
+    }
+    &-images{
+        position: relative;
+        pointer-events: none;
+        /* overflow: hidden; */
+
+        @media screen and (min-width:1200px) {
+            width: 90%;
+        }
+        
+    }
+    &-img{
+        width: 100%;
+        position: absolute;
+        object-fit: scale-down;
+        object-fit: initial;
+        // transition: transform .2s ease;
+        will-change: transform;
+        
+        &:first-child{ 
+            position: static;
+        }
+        &.bg{
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+        }
+        
+        &.boy{
+            width: 60%;
+            top: 25%;
+            right: -5%;
+        }
+        &.freya{
+            width:80%;
+            top: -60%;
+            left:60%;
+        }
+        &.kratos{
+            width: 50%;
+            top:0;
+            left: -7%;
+        }
+        &.trineo{
+            width: 100%;
+            top:45%;
+            left: -15%;
+            transform: scale(1.4);
+            
+        }
+        &.polvo1{
+            z-index: 2;
+            width: 100%;
+            left:10%;
+            bottom: -40%;
+            opacity: .2;
+        }
+        &.polvo2{
+            z-index: 2;
+            width: 100%;
+            left:-20%;
+            bottom: -40%;
+            opacity: .8;
+        }
+        &.polvo3{
+            z-index: 2;
+            width: 100%;
+            left:-40%;
+            top: 20%;
+            
+        }
+        &.nieve1{
+            z-index: 2;
+            width: 140%;
+            height: 140%;
+            left:0%;
+            top: -20%;
+            
+            
+        }
+        &.nieve2{
+            z-index: 2;
+            width: 160%;
+            height: 160%;
+            left:0%;
+            top: -30%;
+            
+        }
+        &.ruido{
+            width: 100%;
+            height: 70%;
+            bottom: 0;
+            right: 0;
+        }
+    }
+    &-section{
+        
+    }
+    &-h3{
+        /* font-size: 2.4em; */
+        font-size: clamp(1rem, 4vw, 3rem); 
+        margin: 0 0 1em;
+        @include media(){
+            font-size: 2em;
+        }
+    }
+    &-p{
+        font-size: .5em;
+        font-size: clamp(.6rem, 2vw, 1.2rem); 
+        line-height: 1.5em;
+        @include media(){
+            font-size: 1em;
+        }
+    }
+}

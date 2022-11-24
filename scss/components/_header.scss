@@ -1,0 +1,112 @@
+.Header{
+    width:100%;
+    box-shadow: 0 0 1em var(--s-primary);
+    background-color: var(--c-blanco);
+    
+    color:var(--c-negro);
+    position: fixed;
+    top: 0;
+    z-index: 5;
+
+    animation: slideDown 1s ease 3s 1 both ;
+
+    @include media(920px){ font-size: .9em; }
+    @include media(){
+        font-size: 1.1em;
+    }
+    &-sup{
+        @include flex( row, nowrap , space-between , center );
+        padding: .5em 0;
+    }
+    &-h2{
+        max-width: 3em;
+        @include media(){
+            margin: 0 0 0 3em;
+        }
+    }
+    &-logo{}
+    &-nav{
+        @include media(){
+            display: none;
+        }
+    }
+    &-ul{
+        @include flex( row, nowrap , center , center );
+    }
+    &-li{
+        @include flex( row, nowrap , center , center );
+        
+        &::after{
+            content: '›';
+            display: block;
+            width: .25em;
+            height: .25em;
+            margin: 0 .45em 0 .3em ;
+            line-height: .25em;
+            text-align: center;
+            font-size: 2em;
+            color:var(--c-gris);
+            transform: rotate(90deg) translate(-2px);
+            @include media(){
+                display: none;
+            }
+        }
+        
+    }
+    &-a{}
+    &-extra{
+        @include flex( row, nowrap , flex-end , center );
+        gap: .5em;
+
+        &.isMobile{
+            display: none;
+            @include media(){ display: flex; }
+        }
+    }
+    &-link{
+        background-color: var(--c-azul);
+        color:var(--c-blanco);
+        padding: .5em 1em;
+        border-radius: 3.125rem;
+    }
+    &-btn{
+        border-radius: 50%;
+        padding: .2em;
+        transition: all .5s ease;
+        cursor: pointer;
+
+        &:hover{
+            background-color: var(--c-gris);
+        }
+        &.isDesktop{
+            @include media(){ display: none; }
+        }
+    }
+    &-svg{
+        width: 1.6em;
+        height: 1.6em;
+        padding: .2em;
+    }
+    &-inf{
+        @include flex( row, nowrap , space-between , center);
+        padding: 1em 0;
+        @include media(){
+            justify-content: center;
+        }
+    }
+    &-gow{
+        max-width: 8.125rem;
+    }
+    &-reserva{
+        min-width: 7em;
+        padding: .5em 0;
+        background-color: var(--c-rojo);
+        color:var(--c-blanco);
+        border-radius: 3.125rem;
+
+        @include media(){
+            display: none;
+        }
+        
+    }
+}

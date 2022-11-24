@@ -1,0 +1,20 @@
+@import 'partials/_custom' , 'partials/_reset' , 'partials/_mixins' , 'partials/_keyframes';
+
+@import 'components/_loader';
+
+@import 'components/_header';
+
+@import 'components/_hero';
+
+@import 'components/_slider';
+
+@import 'components/_intro';
+
+
+.Wrapper{
+    width:90%;
+    max-width: 100rem;
+    margin: auto;
+}
+
+

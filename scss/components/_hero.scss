@@ -1,0 +1,45 @@
+.Hero{
+    position: relative;
+    overflow: hidden;
+    margin: 10vh 0 0;
+
+    animation:  slideHero 1s ease 3s 1 both ;
+    &-video{
+        min-height: 50vh;
+        max-height: 80vh;
+        animation: scale 80s ease 1 both;
+    }
+    &-info{
+        width: 100%;
+        position: absolute;
+        top:calc( 50% - 8.125rem );
+        @include flex( column , nowrap , center , center);
+
+    }
+    &-h1{
+        max-width: 43.75rem;
+        animation:  slideTitles 1s ease 4s 1 both ;
+    }
+    &-img{}
+    &-reservar{
+        max-width: 18.75rem;
+        background-color: var(--c-rojo);
+        padding: 1em 2em;
+        margin: 2em auto 0;
+        
+        @include flex( row, nowrap , center , center );
+        border-radius: 3.125rem;
+
+        font-weight: 600;
+        color:var(--c-blanco);
+        transition: all .5s ease;
+        
+        box-shadow: 0 0 1em rgba(0,0,0,.6);
+        animation:  slideTitles 1s ease 5s 1 both ;
+
+        &:hover{
+            background-color: var(--c-blanco);
+            color: var(--c-negro);
+        }
+    }
+}
