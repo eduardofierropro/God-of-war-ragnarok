@@ -62,5 +62,5 @@ Este es un repositorio donde he  programado desde cero  parte de la web de God o
 ## 📄 Licencia 
 
 MIT Public License v3.0
-No puede usarse comencialmente
+No puede usarse comercialmente
 
