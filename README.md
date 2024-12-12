@@ -5,7 +5,6 @@
 Este es un repositorio donde he  programado desde cero  parte de la web de God of War Ragnarok con HTML, SUITCSS, SCSS y Typescript en directo desde Twitch.
 
 [![Original website](https://img.shields.io/static/v1?label=&message=Original%20Site&color=4d94b3&style=for-the-badge)](https://www.playstation.com/es-es/games/god-of-war-ragnarok/)
-[![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=6cccb4&style=for-the-badge)](https://eduardofierropro.github.io/God-of-war-ragnarok/)
 [![Github Repository](https://img.shields.io/static/v1?label=&message=Github%20Repository&color=000000&style=for-the-badge&logo=github&logoColor=white)](https://github.com/eduardofierropro/God-of-war-ragnarok)
 [![Youtube](https://img.shields.io/static/v1?label=&message=ver%20en%20youtube&color=FF0000&logo=youtube&logoColor=white&style=for-the-badge)](https://www.youtube.com/watch?v=YV8PON9MVl8)
 
